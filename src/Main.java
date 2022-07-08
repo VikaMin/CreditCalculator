@@ -9,21 +9,21 @@ public class Main {
         payment = service.calculate(credit, percent, 12);
         System.out.println();
         System.out.println("сумма кредита: " + credit + "руб.  процентная ставка: " + percent + "%  количество месяцев: " + 12);
-        System.out.println("месячный платеж составляет: " + payment + "руб.");
+        System.out.println("месячный платеж составляет: " + Math. round (payment)  + " руб.");
 
 
 
         payment = service.calculate(credit, percent, 24);
         System.out.println();
         System.out.println("сумма кредита: " + credit + "руб.  процентная ставка: " + percent + "%  количество месяцев: " + 24);
-        System.out.println("месячный платеж составляет: " + payment + "руб.");
+        System.out.println("месячный платеж составляет: " + Math. round (payment) + " руб.");
 
 
 
         payment = service.calculate(credit, percent, 36);
         System.out.println();
         System.out.println("сумма кредита: " + credit + "руб.  процентная ставка: " + percent + "%  количество месяцев: " + 36);
-        System.out.println("месячный платеж составляет: " + payment + "руб.");
+        System.out.println("месячный платеж составляет: " + Math. round (payment) + " руб.");
 
     }
 }
