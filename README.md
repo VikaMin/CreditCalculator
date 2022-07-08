@@ -1,1 +1,1 @@
-# CreditCalculator
+# ОДОБРЕНО ДЕНОМ
