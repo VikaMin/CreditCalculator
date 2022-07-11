@@ -4,7 +4,7 @@ public class Main {
 
         int credit = 1_000_000; // сумма кредита
         double percent = 9.99; // процентная ставка
-        double payment;
+        double payment; // ежемесячный платеж
 
         payment = service.calculate(credit, percent, 12);
         System.out.println();
