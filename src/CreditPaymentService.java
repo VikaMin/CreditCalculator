@@ -1,8 +1,7 @@
 public class CreditPaymentService {
 
-    public double calculate(int k, double p, int m) {
-        double result = k*((p/(100 *12))/(1-(1/Math.pow((1+(p/(100 * 12))),m))));
+    public double calculate(int credit, double precent, int mouth) {
+        double result = credit * ((precent / (100 * 12)) / (1 - (1 / Math.pow((1 + (precent / (100 * 12))), mouth))));
         return result;
-
     }
 }
